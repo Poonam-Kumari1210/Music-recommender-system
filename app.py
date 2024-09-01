@@ -4,7 +4,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the dataset
-data_path = "D:\\D Drive\\Data Science\\PYCharm Projects\\song recommendation system\\Songs_dataset.csv"
+# data_path = "D:\\D Drive\\Data Science\\PYCharm Projects\\song recommendation system\\Songs_dataset.csv"
+data_path = "Songs_dataset.csv"
 df = pd.read_csv(data_path)
 
 # Preprocess the data
